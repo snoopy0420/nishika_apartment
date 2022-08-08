@@ -1,1 +1,26 @@
 Nishika「中古マンション価格予測」
+
+## 環境
+python: 3.7.2
+
+# 手順
+
+## クローン
+```sh
+git clone https://github.com/snoopy0420/nishika_apartment.git
+```
+
+## フォルダ移動
+```sh
+cd nishika_apartment/code
+```
+
+## 特徴量生成
+```sh
+python create_features.py
+```
+
+## 学習
+```sh
+python apartment_run.py
+```
