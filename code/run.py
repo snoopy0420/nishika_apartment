@@ -150,7 +150,7 @@ def get_run_info():
         'calc_shap': False,     # shap値を計算するか否か
         'save_train_pred': False,    # trainデータに対する予測値を保存するか否か,閾値の最適化に使用
         "hopt": False,           # パラメータチューニングするか否か
-        "target_enc": True,     # target encoding をするか否か
+        "target_enc": True,      # target encoding をするか否か
         "cat_cols": "all"        # target encodingするカラムをリストで指定
     }
     return run_setting

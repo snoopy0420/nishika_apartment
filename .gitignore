@@ -14,5 +14,6 @@ data/submission/*
 !data/submission/.gitkeep
 models/*
 !models/.gitkeep
-
+notebooks/*
+!notebooks/.gitkeep
 
